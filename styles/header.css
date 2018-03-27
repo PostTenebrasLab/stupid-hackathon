@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: hsl(0, 0%, 50%);
+}
+
+#nav-container div {
+  margin: 7px 2px 5px 2px;
+  padding: 5px 10px;
+  background-color: hsl(0, 0%, 40%);
+  flex-grow: 1;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#nav-container div:hover {
+  background-color: hsl(0, 0%, 45%);
+}
+
+#nav-container div a {
+  color: hsl(0, 0%, 90%);
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+#nav-container div:hover a {
+  color: hsl(0, 100%, 100%);
+  text-decoration: none;
+}
+
+#github-logo {
+  width: 1em;
+  height: 1em;
+  margin: auto 2px auto 5px;
+  padding-bottom: 3px;
+  vertical-align: middle;
+}
