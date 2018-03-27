@@ -51,6 +51,6 @@ const contents = {
   },
 
   "links": {
-    "navLinks": ["index.html", "tickets.html", "contacts.html", "index.html"]
+    "navLinks": ["index.html", "tickets.html", "contacts.html", "https://github.com/PostTenebrasLab/stupid-hackathon.git"]
   }
 }
